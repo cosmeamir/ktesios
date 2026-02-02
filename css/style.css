@@ -102,6 +102,8 @@ body {
 	font-weight: 300;
 	color: rgba(21, 21, 21, 0.8);
 	background-color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
 	letter-spacing: .03em;
@@ -111,6 +113,13 @@ body {
 	body {
 		font-size: 16px;
 		line-height: 1.5;
+	}
+}
+
+@media (max-width: 575px) {
+	body {
+		padding-left: 12px;
+		padding-right: 12px;
 	}
 }
 
