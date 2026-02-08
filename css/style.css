@@ -3510,6 +3510,25 @@ a.post-tiny-media:hover::before {
 	width: auto;
 }
 
+.rd-navbar-thin .rd-navbar-list a,
+.rd-navbar-thin .rd-navbar-list .icon {
+	color: #fff;
+}
+
+.contact-info {
+	color: #fff;
+}
+
+.contact-info .link-default,
+.contact-info .layout-bordered-item-inner,
+.contact-info .layout-bordered-item-inner .icon {
+	color: #fff;
+}
+
+.contact-info .layout-bordered-item-inner .link-default:hover {
+	color: #fff;
+}
+
 .contact-actions {
 	display: flex;
 	align-items: center;
