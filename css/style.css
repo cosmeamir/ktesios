@@ -3490,6 +3490,26 @@ a.post-tiny-media:hover::before {
 	padding-right: 0;
 }
 
+#standards h3 {
+	color: #fff;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+}
+
+.standards-logos .link-image {
+	max-width: 160px;
+	opacity: .7;
+}
+
+.standards-logos .link-image:hover {
+	opacity: 1;
+}
+
+.standards-logos img {
+	max-height: 80px;
+	width: auto;
+}
+
 .project-card {
 	height: 100%;
 	overflow: hidden;
