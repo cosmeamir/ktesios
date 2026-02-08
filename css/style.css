@@ -96,7 +96,7 @@ html p a:hover {
 * Typography
 */
 body {
-	font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	font-weight: 300;
@@ -126,7 +126,7 @@ body {
 h1, h2, h3, h4, h5, h6, [class^='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #151515;
 }
 
@@ -3460,6 +3460,162 @@ a.post-tiny-media:hover::before {
 		max-width: 360px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+}
+
+.section-what-we-do {
+	background-color: #2b2b2b;
+}
+
+.section-what-we-do h3 {
+	color: #fff;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 500;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+}
+
+.section-what-we-do .what-we-do-grid {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.section-what-we-do .what-we-do-grid > [class*='col-'] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.section-what-we-do .container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#standards h3 {
+	color: #fff;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+}
+
+.standards-logos .link-image {
+	max-width: 160px;
+	opacity: .7;
+}
+
+.standards-logos .link-image:hover {
+	opacity: 1;
+}
+
+.standards-logos img {
+	max-height: 80px;
+	width: auto;
+}
+
+.rd-navbar-thin .rd-navbar-list a,
+.rd-navbar-thin .rd-navbar-list .icon {
+	color: #fff;
+}
+
+.contact-info {
+	color: #fff;
+}
+
+.contact-info .link-default,
+.contact-info .layout-bordered-item-inner,
+.contact-info .layout-bordered-item-inner .icon {
+	color: #fff;
+}
+
+.contact-info .layout-bordered-item-inner .link-default:hover {
+	color: #fff;
+}
+
+.contact-actions {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 12px 16px;
+	color: #fff;
+}
+
+.contact-actions > * {
+	margin-top: 0;
+}
+
+.contact-actions .button {
+	padding-left: 22px;
+	padding-right: 22px;
+	min-width: 180px;
+}
+
+.contact-actions p {
+	margin: 0 6px;
+	color: inherit;
+	white-space: nowrap;
+}
+
+.contact-actions .button,
+.contact-actions .button:focus,
+.contact-actions .button:active,
+.contact-actions .button:hover {
+	color: #fff;
+}
+
+.contact-actions .button-primary-outline {
+	border-color: rgba(255, 255, 255, 0.4);
+}
+
+.project-card {
+	height: 100%;
+	overflow: hidden;
+}
+
+.project-card-media {
+	position: relative;
+	display: block;
+	height: 100%;
+	color: #fff;
+}
+
+.project-card-media img {
+	width: 100%;
+	height: 100%;
+	min-height: 260px;
+	object-fit: cover;
+}
+
+.project-card-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 24px;
+	background: rgba(0, 0, 0, 0.45);
+	transition: background .22s ease-in-out;
+}
+
+.project-card-title {
+	margin: 0;
+	max-width: 220px;
+	color: #fff;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+.project-card-media:hover .project-card-overlay {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 992px) {
+	.project-card-media img {
+		min-height: 360px;
 	}
 }
 
