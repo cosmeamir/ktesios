@@ -3483,6 +3483,11 @@ a.post-tiny-media:hover::before {
 	padding-right: 0;
 }
 
+.section-what-we-do .container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .project-card {
 	height: 100%;
 	overflow: hidden;
